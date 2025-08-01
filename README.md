@@ -9,8 +9,8 @@ If you want to review the dataset follow the link: https://www.kaggle.com/datase
 
 🎯The target variable is Cover_Type, a multiclass variable with 7 forest types (e.g., Spruce/Fir, Lodgepole Pine, Aspen, etc.)
 
-🛠 Process:
-🔹 Data Preprocessing
+🛠 Data Preprocessing:
+
 Cleaned data (no missing values originally)
 
 Standardized column names for readability
@@ -37,11 +37,11 @@ Handled class imbalance better
 
 🧾 Performance:
 
-✅ Accuracy: 95.07%
+🔹 Accuracy: 95.07%
 
-🎯 Excellent precision and recall across all classes
+🔹 Excellent precision and recall across all classes
 
-🌟 Best at predicting rare classes (like Cover_Type 3 & 4)
+🔹 Best at predicting rare classes (like Cover_Type 3 & 4)
 
 ⚡ XGBoost Classifier
 Gradient boosting decision trees
@@ -52,11 +52,11 @@ More sensitive to class imbalance
 
 🧾 Performance:
 
-✅ Accuracy: 86.93%
+🔹 Accuracy: 86.93%
 
-🎯 Good on common classes, weaker on rare classes
+🔹 Good on common classes, weaker on rare classes
 
-💡 Benefit from hyperparameter tuning
+🔹 Benefit from hyperparameter tuning
 
 📌 Key Insights:
 Elevation, Soil Type, and Horizontal Distance to Roads were the most influential features
@@ -68,6 +68,7 @@ XGBoost can improve significantly with class weighting or hyperparameter tuning
 Predictions may vary between models for borderline or rare class inputs
 
 🧠 Technologies Used:
+
 🐍 Python 
 
 📊 Pandas, NumPy (data handling)
